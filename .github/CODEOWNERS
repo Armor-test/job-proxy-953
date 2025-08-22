@@ -1,0 +1,41 @@
+# CODEOWNERS file for job-proxy-953
+# Global owners - will be requested for all PRs
+* @Armor-test/grp-ui @Armor-test/squad-payments @Armor-test/team-notifications
+
+# Directory ownership
+/helpers/ @Armor-test/unit-test @Armor-test/team-research @Armor-test/dept-api
+/security/ @Armor-test/squad-ml @Armor-test/squad-product @Armor-test/grp-api
+/extensions/ @Armor-test/grp-integration @Armor-test/squad-cloud
+/lib/ @Armor-test/squad-api @Armor-test/team-security @Armor-test/unit-governance
+/internal/ @Armor-test/unit-governance @Armor-test/team-logging @Armor-test/team-core
+/web/ @Armor-test/unit-devops @Armor-test/team-frontend
+/auth/ @Armor-test/squad-research @Armor-test/dept-reporting
+/src/ @Armor-test/squad-research @Armor-test/unit-test @Armor-test/team-core
+/plugins/ @Armor-test/team-reporting @Armor-test/squad-ml @Armor-test/team-frontend
+/views/ @Armor-test/squad-ml @Armor-test/team-reporting @Armor-test/squad-database
+/tests/ @Armor-test/squad-api @Armor-test/unit-cloud @Armor-test/dept-identity
+/styles/ @Armor-test/team-research @Armor-test/grp-storage
+/data/ @Armor-test/team-frontend @Armor-test/grp-reporting @Armor-test/dept-data
+/controllers/ @Armor-test/squad-cloud @Armor-test/dept-reliability @Armor-test/unit-cloud
+
+# File type ownership
+*.cs @Armor-test/team-logging @Armor-test/squad-mobile @Armor-test/dept-api
+*.yml @Armor-test/grp-reporting @Armor-test/squad-reporting
+*.kt @Armor-test/team-core @Armor-test/team-reporting
+*.toml @Armor-test/team-reporting @Armor-test/dept-automation @Armor-test/unit-governance
+*.config @Armor-test/unit-governance @Armor-test/grp-search
+*.jsx @Armor-test/squad-search @Armor-test/squad-qa
+*.md @Armor-test/dept-reporting @Armor-test/team-notifications
+*.xml @Armor-test/squad-qa @Armor-test/squad-tooling @Armor-test/dept-api
+*.html @Armor-test/unit-cloud @Armor-test/team-governance
+*.go @Armor-test/squad-database @Armor-test/grp-integration @Armor-test/unit-design
+*.java @Armor-test/dept-notifications @Armor-test/squad-qa
+*.c @Armor-test/dept-logging @Armor-test/dept-security @Armor-test/squad-api
+*.swift @Armor-test/dept-reliability @Armor-test/team-frontend
+
+# Security and special files
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+Dockerfile @Armor-test/devops @Armor-test/infra
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+package.json @Armor-test/dependency-team @Armor-test/security
